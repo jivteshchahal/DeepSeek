@@ -1,0 +1,84 @@
+<section class="contact-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Contact Us</h2>
+            <p class="text-muted">We'd love to hear from you! Get in touch for a free estimate or any inquiries.</p>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Contact Form -->
+            <div class="col-md-7">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <form action="/contact" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="(123) 456-7890" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-5">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <h3 class="card-title mb-4">Our Contact Info</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-map-marker-alt fa-fw me-2"></i>
+                                <strong>Address:</strong><br>
+                                123 Paint Street, City, State, ZIP
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-phone fa-fw me-2"></i>
+                                <strong>Phone:</strong><br>
+                                <a href="tel:+1234567890" class="text-decoration-none">(123) 456-7890</a>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-envelope fa-fw me-2"></i>
+                                <strong>Email:</strong><br>
+                                <a href="mailto:info@premiumpainters.com" class="text-decoration-none">info@premiumpainters.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock fa-fw me-2"></i>
+                                <strong>Working Hours:</strong><br>
+                                Mon - Fri: 9:00 AM - 6:00 PM
+                            </li>
+                        </ul>
+                        <hr class="my-4">
+                        <h5 class="mb-3">Follow Us</h5>
+                        <div class="social-links">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
