@@ -3,9 +3,15 @@
 /* Hero Section */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url('https://images.unsplash.com/photo-1533158388470-9a56699990c6?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;
+                url(../images/homepageimg.jpg);
+    background-size: cover;
+    background-position: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: white;
+    height: 100vh; /* Adds full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Cards */
@@ -81,8 +87,16 @@
 }
 /* Services Page Specific Styles */
 .services-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('https://images.unsplash.com/photo-1533158388470-9a56699990c6?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
+                url(../images/servicesImg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100vh; /* Adds full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-title i {
