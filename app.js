@@ -55,9 +55,12 @@ app.post('/contact', async (req, res) => {
     res.status(500).send('Error submitting form');
 } 
 });
+app.get("*", function (req, res) {
+    res.render("error");
+});
 
 // Start the server
-// app.listen(5555, "192.168.1.10", function () {
+// app.listen(5555, "192.168.1.15", function () {
 //     console.log("Server Started");
 // });
 const PORT = process.env.PORT || 5555; // Use environment variable or default to 5555
